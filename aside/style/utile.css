@@ -71,3 +71,50 @@ body{
 .bold{
     font-weight: bold;
 }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/**  margin  **/
+.m-5{
+    margin: 5px;
+}
+.m-10{
+    margin: 10px;
+}
+.m-15{
+    margin: 15px;
+}
+.m-25{
+    margin: 25px;
+}
+.m-20{
+    margin: 20px;
+}
+
+/**  padding  **/
+.p-5{
+    padding: 5px;
+}
+.p-10{
+   padding: 10px;
+}
+.p-15{
+   padding: 15px;
+}
+.p-25{
+   padding: 25px;
+}
+.p-20{
+    padding: 20px;
+}
+/* Icon*/
+.dropDown::after{
+    content: "\1F893";
+    padding-left: 2px;
+    position: relative;
+    top: 5px;
+
+}
